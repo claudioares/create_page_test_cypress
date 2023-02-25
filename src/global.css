@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  min-height: 100vh;
+  font-size: 1.6rem;
+  margin: 0;
+}
+button {
+  height: 3.5rem;
+  width: 23rem;
+
+  border-radius: 1rem;
+  cursor: pointer;
+}
+button:hover {
+  background-color: rgb(228, 228, 217);
+  border: 0.2rem solid rgb(29, 45, 48);
+}
